@@ -14,4 +14,4 @@ This course will teach you the basics of event-driven programming with jQuery. Y
 
 ### Summary
 ---
-:skull:
+:skull: Put on your :goggles:... as Mr. Lindley flies through this course... don't want to get any kicked up dust in your eyes.
