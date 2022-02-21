@@ -13,7 +13,7 @@
     const $div = $('<div/>');
     const $button = $('<button/>');
     $button
-      .addClass('back')
+      .addClass('btn btn-sm btn-secondary back')
       .html('&laquo; Back')
       .on('click', () => {
         window.history.back();

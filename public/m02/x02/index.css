@@ -1,0 +1,6 @@
+ul.reactions {
+  list-style: none;
+}
+ul.reactions li {
+  font-size: 4rem;
+}
