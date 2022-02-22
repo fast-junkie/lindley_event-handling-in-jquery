@@ -1,0 +1,214 @@
+{
+  "events": [
+    {
+      "name": ".ajaxComplete()",
+      "url": "https://api.jquery.com/ajaxComplete/",
+      "category": "Ajax",
+      "description": "Register a handler to be called when Ajax requests complete. This is an AjaxEvent."
+    },
+    {
+      "name": ".ajaxError()",
+      "url": "https://api.jquery.com/ajaxError/",
+      "category": "Ajax",
+      "description": "Register a handler to be called when Ajax requests complete with an error. This is an Ajax Event."
+    },
+    {
+      "name": ".ajaxSend()",
+      "url": "https://api.jquery.com/ajaxSend/",
+      "category": "Ajax",
+      "description": "Attach a function to be executed before an Ajax request is sent. This is an Ajax Event."
+    },
+    {
+      "name": ".ajaxStart()",
+      "url": "https://api.jquery.com/ajaxStart/",
+      "category": "Ajax",
+      "description": "Register a handler to be called when the first Ajax request begins. This is an Ajax Event."
+    },
+    {
+      "name": ".ajaxStop()",
+      "url": "https://api.jquery.com/ajaxStop/",
+      "category": "Ajax",
+      "description": "Register a handler to be called when all Ajax requests have completed. This is an Ajax Event."
+    },
+    {
+      "name": ".ajaxSuccess()",
+      "url": "https://api.jquery.com/ajaxSuccess/",
+      "category": "Ajax",
+      "description": "Attach a function to be executed whenever an Ajax request completes successfully. This is an Ajax Event."
+    },
+    {
+      "name": ".blur()",
+      "url": "https://api.jquery.com/blur/",
+      "category": "Forms",
+      "description": "Bind an event handler to the “blur” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".change()",
+      "url": "https://api.jquery.com/change/",
+      "category": "Forms",
+      "description": "Bind an event handler to the “change” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".click()",
+      "url": "https://api.jquery.com/click/",
+      "category": "Mouse",
+      "description": "Bind an event handler to the “click” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".contextmenu()",
+      "url": "https://api.jquery.com/contextmenu/",
+      "category": "Mouse",
+      "description": "Bind an event handler to the “contextmenu” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".dblclick()",
+      "url": "https://api.jquery.com/dblclick/",
+      "category": "Mouse",
+      "description": "Bind an event handler to the “dblclick” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".focus()",
+      "url": "https://api.jquery.com/focus/",
+      "category": "Forms",
+      "description": "Bind an event handler to the “focus” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".focusin()",
+      "url": "https://api.jquery.com/focusin/",
+      "category": "Forms",
+      "description": "Bind an event handler to the “focusin” event."
+    },
+    {
+      "name": ".focusout()",
+      "url": "https://api.jquery.com/focusout/",
+      "category": "Forms",
+      "description": "Bind an event handler to the “focusout” JavaScript event."
+    },
+    {
+      "name": ".hover()",
+      "url": "https://api.jquery.com/hover/",
+      "category": "Mouse",
+      "description": "Bind one or two handlers to the matched elements, to be executed when the mouse pointer enters and leaves the elements."
+    },
+    {
+      "name": ".keydown()",
+      "url": "https://api.jquery.com/keydown/",
+      "category": "Keyboard",
+      "description": "Bind an event handler to the “keydown” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".keypress()",
+      "url": "https://api.jquery.com/keypress/",
+      "category": "Keyboard",
+      "description": "Bind an event handler to the “keypress” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".keyup()",
+      "url": "https://api.jquery.com/keyup/",
+      "category": "Keyboard",
+      "description": "Bind an event handler to the “keyup” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".mousedown()",
+      "url": "https://api.jquery.com/mousedown/",
+      "category": "Mouse",
+      "description": "Bind an event handler to the “mousedown” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".mouseenter()",
+      "url": "https://api.jquery.com/mouseenter/",
+      "category": "Mouse",
+      "description": "Bind an event handler to be fired when the mouse enters an element, or trigger that handler on an element."
+    },
+    {
+      "name": ".mouseleave()",
+      "url": "https://api.jquery.com/mouseleave/",
+      "category": "Mouse",
+      "description": "Bind an event handler to be fired when the mouse leaves an element, or trigger that handler on an element."
+    },
+    {
+      "name": ".mousemove()",
+      "url": "https://api.jquery.com/mousemove/",
+      "category": "Mouse",
+      "description": "Bind an event handler to the “mousemove” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".mouseout()",
+      "url": "https://api.jquery.com/mouseout/",
+      "category": "Mouse",
+      "description": "Bind an event handler to the “mouseout” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".mouseover()",
+      "url": "https://api.jquery.com/mouseover/",
+      "category": "Mouse",
+      "description": "Bind an event handler to the “mouseover” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".mouseup()",
+      "url": "https://api.jquery.com/mouseup/",
+      "category": "Mouse",
+      "description": "Bind an event handler to the “mouseup” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".off()",
+      "url": "https://api.jquery.com/off/",
+      "category": "Attachment",
+      "description": "Remove an event handler."
+    },
+    {
+      "name": ".on()",
+      "url": "https://api.jquery.com/on/",
+      "category": "Attachment",
+      "description": "Attach an event handler function for one or more events to the selected elements."
+    },
+    {
+      "name": ".one()",
+      "url": "https://api.jquery.com/one/",
+      "category": "Attachment",
+      "description": "Attach a handler to an event for the elements. The handler is executed at most once per element per event type."
+    },
+    {
+      "name": ".ready()",
+      "url": "https://api.jquery.com/ready/",
+      "category": "Document",
+      "description": "Specify a function to execute when the DOM is fully loaded."
+    },
+    {
+      "name": ".resize()",
+      "url": "https://api.jquery.com/resize/",
+      "category": "Browser",
+      "description": "Bind an event handler to the “resize” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".scroll()",
+      "url": "https://api.jquery.com/scroll/",
+      "category": "Browser",
+      "description": "Bind an event handler to the “scroll” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".select()",
+      "url": "https://api.jquery.com/select/",
+      "category": "Forms",
+      "description": "Bind an event handler to the “select” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".submit()",
+      "url": "https://api.jquery.com/submit/",
+      "category": "Forms",
+      "description": "Bind an event handler to the “submit” JavaScript event, or trigger that event on an element."
+    },
+    {
+      "name": ".trigger()",
+      "url": "https://api.jquery.com/trigger/",
+      "category": "Attachment",
+      "description": "Execute all handlers and behaviors attached to the matched elements for the given event type."
+    },
+    {
+      "name": ".triggerHandler()",
+      "url": "https://api.jquery.com/triggerHandler/",
+      "category": "Attachment",
+      "description": "Execute all handlers attached to an element for an event."
+    }
+  ]
+}

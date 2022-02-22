@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="stylesheet" href="index.css">
+    <title></title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="/" class="navbar-brand"><i class="bi bi-house-fill"></i></a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="offcanvasNavbar" class="offcanvas offcanvas-end bg-dark" tabindex="-1">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasNavbarLabel" class="offcanvas-title">Event Handling in jQuery</h5>
+            <button type="button" class="btn bg-dark" data-bs-dismiss="offcanvas">
+              <i class="bi bi-x-circle-fill"></i>
+            </button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a href="/" class="nav-link">
+                  <i class="bi bi-house-fill"></i>
+                  Home
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <main class="container no-back">
+      <div class="row">
+        <div class="col-4">
+          <div class="my-3 p-3 bg-white rounded shadow-sm">
+            <h6 class="pb-1">Enter and Leave Events</h6>
+            <small>Parent</small>
+            <div id="mouseenterTarget" class="border-dash p-5 bg-body rounded text-center">
+              <div class="child border border-dark p-3">
+                <small>Child</small>
+              </div>
+            </div>
+          </div>
+          <div class="my-2 p-2 bg-white rounded shadow-sm text-center">
+            <div>mouseenter</div>
+            <div class="mouseenter--count">0</div>
+          </div>
+          <div class="my-2 p-2 bg-white rounded shadow-sm text-center">
+            <div>mouseleave</div>
+            <div class="mouseleave--count">0</div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="my-3 p-3 bg-white rounded shadow-sm">
+            <h6 class="pb-1">Over and Out Events</h6>
+            <small>Parent</small>
+            <div id="mouseoverTarget" class="border-dash p-5 bg-body rounded text-center">
+              <div class="child border border-dark p-3">
+                <small>Child</small>
+              </div>
+            </div>
+          </div>
+          <div class="my-2 p-2 bg-white rounded shadow-sm text-center">
+            <div>mouseover</div>
+            <div class="mouseover--count">0</div>
+          </div>
+          <div class="my-2 p-2 bg-white rounded shadow-sm text-center">
+            <div>mouseout</div>
+            <div class="mouseout--count">0</div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="my-3 p-3 bg-white rounded shadow-sm">
+            <h6 class="pb-1">Move Events</h6>
+            <small>Parent</small>
+            <div id="mousemoveTarget" class="border-dash p-5 bg-body rounded text-center">
+              <div class="child border border-dark p-3">
+                <small>Child</small>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 bg-white rounded shadow-sm text-center">
+            <div>mousemove</div>
+            <div class="mousemove--count">0</div>
+          </div>
+          <div class="my-2 p-2 bg-white rounded shadow-sm text-center">
+            <div>PageX, PageY</div>
+            <div class="mousemove--position">0, 0</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -4,7 +4,7 @@
     if (document.readyState === 'complete') {
       clearInterval(interval);
       setBackButton();
-      console.info('complete...');
+      console.debug('document.readyState =>', document.readyState);
     }
   }
 

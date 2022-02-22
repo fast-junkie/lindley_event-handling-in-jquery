@@ -1,0 +1,12 @@
+body {
+  background-color: rgba(229, 229, 229, 0.75);
+}
+body > .navbar {
+  color: rgba(255, 255, 255, 0.75);
+}
+body > .navbar > a {
+  color: rgba(255, 255, 255, 0.75);
+}
+h6 > a {
+  float: right;
+}

@@ -8,8 +8,29 @@ textarea {
     size: 0.8rem;
   }
 }
-button.back {
-  margin: {
-    top: 3rem;
+nav {
+  .offcanvas {
+    &.bg-dark {
+      button {
+        color: rgba(255, 255, 255, 0.75);
+      }
+    }
   }
 }
+main {
+  &.no-back {
+    button {
+      &.back {
+        display: none;
+      }
+    }
+  }
+  button {
+    &.back {
+      margin: {
+        top: 3rem;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/vendor/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="stylesheet" href="index.css">
+    <title></title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a href="/" class="navbar-brand"><i class="bi bi-house-fill"></i></a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="offcanvasNavbar" class="offcanvas offcanvas-end bg-dark" tabindex="-1">
+          <div class="offcanvas-header">
+            <h5 id="offcanvasNavbarLabel" class="offcanvas-title">Event Handling in jQuery</h5>
+            <button type="button" class="btn bg-dark" data-bs-dismiss="offcanvas">
+              <i class="bi bi-x-circle-fill"></i>
+            </button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a href="/" class="nav-link">
+                  <i class="bi bi-house-fill"></i>
+                  Home
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container no-back">
+      <div class="row">
+        <div class="col-md-7">
+          <div class="my-3 p-3 bg-white rounded shadow-sm">
+            <h6 class="border-bottom border-gray pb-2 mb-0">Mouse Button Events</h6>
+            <div class="pt-3 text-center">
+              <button id="clickMe" type="button" class="btn btn-primary btn-sm">Click Me</button>
+            </div>
+          </div>
+        </div>
+        <div class="offset-md-1 col-md-4">
+          <div class="my-3 p-3 bg-white rounded shadow-sm">
+            <h6 class="border-bottom border-gray pb-2 mb-0">
+              Handled Events 
+              <a href="#" id="clear" title="Clear">
+                <i class="bi bi-x-circle-fill"></i>
+              </a>
+            </h6>
+            <table class="table">
+              <tbody class="events"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/vendor/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
